@@ -6,6 +6,17 @@ import './App.css'
 function App() {
   return (
     <>
+      <HashRouter>
+        <div>
+          <NavigationBar></NavigationBar>
+          <Routes>
+            <Route path = "/" element = {<Home/>} />
+            <Route path = "/Home" element = {<Home/>} />
+            <Route path = "/AboutMe" element = {<AboutMe/>} />
+            <Route path = "/ContactMe" element = {<ContactMe/>} />
+          </Routes>
+        </div>
+      </HashRouter>
       <h1 id ="Name"> 
         Hi, I am Damaris!
       </h1>
