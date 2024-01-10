@@ -1,5 +1,132 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+    top: 0;
+    position: fixed;
+    background: #d8cfbc;
+    width: 100%;
+    z-index: 9999;
+    animation: gradient_anim 23s ease infinite;
+    background-size: 200%; /* Ensure the background covers the entire linear gradient 
+} */
+
+
+@keyframes gradient_anim {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
+
+@font-face {
+    font-family: Raleway;
+    src: url(/Raleway-Regular.ttf);
+
+    font-family: 'Cormorant Garamond', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+    font-family: 'DM Serif Display', serif;
+    src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+}
+#name{
+    margin-left: 30px;
+    font-family: Raleway;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px #000;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 30px; */
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 15px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration:none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: Raleway;
+    transition: 0.3s ease-in-out;
+    /* text-shadow: 2px 2px 10px #000; */
+}
+
+#navbar li a:hover{
+    color: #dcd2cd
+}
+
+#navbar li a:hover::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: #d2bda3;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#NameTop {
+    color: rgb(255, 255, 255); 
+    font-family: 'DM Serif Display', serif;
+    text-align: left;
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+nav {
+    margin: 0px;
+    background: #090602;
+    padding: 0px;
+    .menuItems {
+      list-style: none;
+      display: flex;
+  
+      li {
+        margin: 50px;
+  
+        a {
+          text-decoration: none;
+          color: #8f8f8f;
+          font-size: 24px;
+          font-weight: 400;
+          transition: all 0.5s ease-in-out;
+          position: relative;
+          text-transform: uppercase;
+  
+          &::before {
+            content: attr(data-item);
+            transition: 0.5s;
+            color: #e8e4df;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 0;
+            overflow: hidden;
+          }
+  
+          &:hover {
+            &::before {
+              width: 100%;
+              transition: all 0.5s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }

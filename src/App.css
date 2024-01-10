@@ -7,15 +7,9 @@ body {
   src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
   font-family: 'Cormorant Garamond', serif;
-font-family: 'Roboto Mono', monospace;
-src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto+Mono:wght@300&display=swap');
+  font-family: 'Roboto Mono', monospace;
+  src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto+Mono:wght@300&display=swap');
 
-}
-
-#NameTop {
-  color: black; 
-  font-family: 'Cormorant Garamond', serif;
-  text-align: left;
 }
 
 #Name {
@@ -36,4 +30,7 @@ src: url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&f
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
+}
+#root {
+  max-width: 1280px;
 }
