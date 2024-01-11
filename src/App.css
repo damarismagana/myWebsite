@@ -34,3 +34,43 @@ body {
 #root {
   max-width: 1280px;
 }
+
+.container {
+  margin-left: 50px;
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 25%;
+  height: 25%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #a59b95;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

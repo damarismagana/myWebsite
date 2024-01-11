@@ -7,6 +7,7 @@ import AboutMe from "./pages/AboutMe"
 import Contact from "./pages/Contact"
 import NavigationBar from './NavigationBar'
 import { Routes, Route, HashRouter } from "react-router-dom";
+import image from "../src/images/columbia.jpg"
 
 function App() {
   return (
@@ -34,6 +35,14 @@ function App() {
       <p id = "Interests" > 
         I am interested in the intersection of Ethics and Artificial Intelligence. 
       </p>
+
+      <div class = "container">
+        <img src = {image} alt = "Columbia image" />
+        <div class = "overlay">
+          <div class = "text">My current School</div>
+        </div>
+      </div>
+
     </>
   )
 }
