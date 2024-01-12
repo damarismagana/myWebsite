@@ -7,7 +7,7 @@ import AboutMe from "./pages/AboutMe"
 import Contact from "./pages/Contact"
 import NavigationBar from './NavigationBar'
 import { Routes, Route, HashRouter } from "react-router-dom";
-import image from "../src/images/columbia.jpg"
+import image from "../src/images/Me.jpg"
 
 function App() {
   return (
@@ -29,22 +29,27 @@ function App() {
       </h1>
 
       <p id = "Studying">
-        I am a First Year at Columbia University Studying Computer Science.
+      Welcome to my digital space, where the worlds of computer science and ethics converge. As a passionate explorer of technology and its profound impact on society, I invite you to join me on a journey where innovation meets responsibility. I am a First Year at Columbia University studying Computer Science. I am interested in the intersection of Ethics and Artificial Intelligence. 
       </p>
 
-      <p id = "Interests" > 
-        I am interested in the intersection of Ethics and Artificial Intelligence. 
-      </p>
+      <br></br> <br></br> <br></br> <br></br> <br></br>
 
+    <div class = "content-container">
       <div class = "container">
-        <img src = {image} alt = "Columbia image" />
+        <img id = "image" src = {image} alt = "Damaris image" />
         <div class = "overlay">
-          <div class = "text">My current School</div>
+          <div class = "text">Go Lions! 🦁</div>
+          </div>
         </div>
+
+        <div id = "BackgroundMe">I am from Northern California and now exploring the East Coast. I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </div>
       </div>
 
+      <br></br> <br></br> <br></br> <br></br> <br></br>
     </>
   )
 }
 
 export default App
+
+
