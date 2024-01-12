@@ -41,11 +41,12 @@ function App() {
           <div class = "text">Go Lions! 🦁</div>
           </div>
         </div>
-
-        <div id = "BackgroundMe">I am from Northern California and now exploring the East Coast. I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </div>
       </div>
 
-      <br></br> <br></br> <br></br> <br></br> <br></br>
+        <p id = "BackgroundMe">I am from Northern California and now exploring the East Coast. I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </p>
+
+      <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
+        <p>HEYYYY </p>
     </>
   )
 }
