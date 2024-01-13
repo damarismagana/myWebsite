@@ -153,3 +153,89 @@ hr.solid {
   height: 70px;
   text-shadow: rgba(255,0,238,1) 0px 0px 25px;
 }
+
+hr.solidThin {
+  border-top: 1.5px solid rgb(0, 0, 0);
+}
+
+.EducationLeft {
+  float: left;
+  margin-left: 40px; 
+}
+
+#LeftHeader {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  
+}
+
+#dateLFloat {
+  float: left; 
+  text-shadow: rgba(255,0,238,1) 0px 0px 25px;
+}
+
+#schoolLFloat {
+  float : right; 
+}
+
+#LeftSchool {
+  float: right; 
+}
+
+.ExperienceRight {
+  float: left; 
+  margin-left: 500px;
+}
+
+#RightHeader {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  /* margin-left:0px;  */
+  
+}
+
+#dateRFloat {
+  float: left; 
+  text-shadow: rgba(255,0,238,1) 0px 0px 25px;
+}
+
+#schoolRFloat {
+  float : right; 
+  /* margin-left: 40px;  */
+}
+
+#RightExperience {
+  float: right; 
+}
+
+.verticalLine {
+  border-left: 1.5px solid rgb(0, 0, 0);
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  /* margin-left: -3px; */
+  top: 3500px; 
+}
+
+.split {
+  border-left: 1.5px solid rgb(217, 23, 23);
+  height: 50px;
+  position: relative;
+  top: 40px; left: 80px;
+  margin-left: 40px; 
+}
+
+#bar {
+  margin-top: 70px;
+  margin-left: 0px; 
+  transform: rotate(90deg);
+}
+
+footer {
+  background-color: rgb(247, 224, 249);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

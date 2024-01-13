@@ -57,6 +57,36 @@ function App() {
         
         <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
 
+        <hr class="solidThin"/>
+
+        <div class = "Education">
+          <div class = "EducationLeft">
+
+            <p id = "LeftHeader"><b>Education</b>
+            </p>
+
+            <div id = "dateLFloat"><p id = "LeftDates">2019<br></br>-2023</p></div>
+            <p id = "bar">༺❀༻</p><div id ="schoolLFloat"></div>
+            <p id = "LeftSchool">Franklin High School</p>
+            <div class="verticalLine"></div>
+          </div>
+          <div class = "ExperienceRight">
+            <p id = "RightHeader"><b>Experience</b></p>
+
+            <div id ="dateRFloat">
+            <p id = "LeftDates">Year<br></br>-Year</p></div><p id = "bar">༺❀༻</p><p id ="RightExperience">Experience</p>
+          </div>
+        </div>
+
+        <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
+        <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
+
+        <footer><p>Footer</p></footer>
+
+
+
+
+        
     </>
   )
 }
