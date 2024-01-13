@@ -45,8 +45,18 @@ function App() {
 
         <p id = "BackgroundMe">I am from Northern California and now exploring the East Coast. I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </p>
 
-      <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
-        <p>HEYYYY </p>
+        <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
+        <hr class="solid"/>
+        <h1 id = "Name">Recent Projects</h1>
+        <hr class="solid"/>
+
+        <div class="vl">
+        <p id = "ProjectLeft">Project Here</p></div>
+        <div class="bl"> <p id = "ProjectRight"> Project Here</p></div>
+        <div class="vl"> <p id = "ProjectLeft">Project Here</p></div>
+        
+        <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
+
     </>
   )
 }

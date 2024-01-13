@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 @font-face {
@@ -37,15 +37,14 @@ body {
 .container {
   float: left; 
   position: relative;
-  margin-left: 40px;
-  /* margin-right: 0x;  */
+  margin-left: 100px;
   max-width: 50%;
   
 }
 
 #image {
   width: 50%; 
-  height: 25%; /* Maintain the aspect ratio */
+  height: 25%; 
 }
 
 .overlay {
@@ -85,6 +84,7 @@ body {
   margin-top: 100px; 
   margin-bottom: 100px; 
   font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
   text-align: center;
   margin-right: 30px; 
   margin-left: 30px;
@@ -95,5 +95,61 @@ p {
   font-size: 25px;
 }
 
+#CurrentMe {
+  font-size: 15px; 
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px; 
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
 
+}
 
+hr.solid {
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+.vl {
+  border-left: 1.5px solid rgb(0, 0, 0);
+  height: 500px;
+  left: 50%;
+  margin-left: 50px;
+  top: 1658px;
+}
+.bl {
+  border-right: 1.5px solid rgb(0, 0, 0);
+  height: 500px;
+  left: 50%;
+  margin-right: 50px;
+  top: 1658px;
+}
+
+#ProjectRight {
+  color: black;
+  font-size: 25px;
+  margin-top: 100px;  
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-right: 30px; 
+  margin-left: 300px;
+  padding: 10px 10px; 
+  width: 400px;
+  height: 200px;
+  text-shadow: rgba(255,0,102,1) 0px 0px 72px;
+}
+
+#ProjectLeft {
+  color: black;
+  font-size: 25px;
+  margin-top: 100px; 
+  margin-bottom: 100px; 
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin-right: 30px; 
+  margin-left: 100px;
+  width: 400px;
+  height: 70px;
+  text-shadow: rgba(255,0,238,1) 0px 0px 25px;
+}
