@@ -71,10 +71,10 @@ function App() {
             <div class="verticalLine"></div>
           </div>
           <div class = "ExperienceRight">
-            <p id = "RightHeader"><b>Experience</b></p>
+            <p id = "RightHeader"><b>Education</b></p>
 
             <div id ="dateRFloat">
-            <p id = "LeftDates">Year<br></br>-Year</p></div><p id = "bar">༺❀༻</p><p id ="RightExperience">Experience</p>
+            <p id = "LeftDates">2023<br></br>-Present</p></div><p id = "bar">༺❀༻</p><p id ="RightExperience">Columbia University</p>
           </div>
         </div>
 
