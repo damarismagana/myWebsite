@@ -43,7 +43,7 @@ function App() {
         </div>
       </div>
 
-        <p id = "BackgroundMe">I am from Northern California and now exploring the East Coast. I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </p>
+        <p id = "BackgroundMe">I am from Northern California and I am a First Generation Latina looking for ways to extend accessibility and access to technology for underrepresented communities. </p>
 
         <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
         <hr class="solid"/>
@@ -81,7 +81,7 @@ function App() {
         <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
         <br></br><br></br>  <br></br><br></br>  <br></br><br></br>  <br></br><br></br>
 
-        <footer><p>Footer</p></footer>
+        <footer><p>See ya! Have a good semester! </p></footer>
 
 
 
